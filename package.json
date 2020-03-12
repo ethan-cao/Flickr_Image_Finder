@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./index.js",
     "build": "webpack -p --config webpack.config.js --progress",
-    "test": "jest --watchAll --coverage"
+    "test": "jest --watchAll --coverage",
+		"heroku-postbuild": "npm install && npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
