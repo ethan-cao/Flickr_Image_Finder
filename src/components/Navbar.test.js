@@ -2,7 +2,7 @@ import React from "react";
 import { render, fireEvent, cleanup } from "@testing-library/react";
 import "@testing-library/jest-dom";
 
-import Header from "./Header";
+import Navbar from "./Navbar";
 
 afterEach(cleanup);
 

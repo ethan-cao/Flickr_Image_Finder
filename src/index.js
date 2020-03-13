@@ -7,10 +7,13 @@ import "./styles/main.scss";
 import store from "./state/store";
 import registerServiceWorker from "./registerServiceWorker";
 
+import Navbar from "./components/Navbar";
+import AppContainer from "./container/AppContainer";
+
 const loadApp = (container) => {
 	ReactDOM.render(
 		<Provider store={store}>  
-			<div>Hi</div>
+			<AppContainer></AppContainer>
 		</Provider>, 
 		container
 	);
