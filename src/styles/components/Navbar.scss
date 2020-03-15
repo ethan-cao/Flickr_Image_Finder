@@ -1,0 +1,41 @@
+#{$NAVBAR_CLASS} {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 1rem;
+	background-color: #{$NAVBAR_BG_COLOR};
+
+	#{$TITLE} {
+		font-weight: 400;
+		font-style: normal;
+		color: white;
+	}
+
+	#{$SEARCH_BOX} {
+		display: flex;
+		flex-flow: row nowrap;
+		min-height: 1rem;
+
+		input {
+			color: grey;
+			padding: 0.5rem 1rem;
+			border: 1px solid grey;
+
+            width: #{$INPUT_WIDTH};
+			transition: #{$INPUT_TRANSITION};
+            
+            &:focus {
+                width: #{$INPUT_EXPANDED_WIDTH}
+            }
+		}
+
+		button {
+			display: flex;
+			border: 1px solid grey;
+			align-items: flex-start;
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+$NAVBAR: navbar;
+$TITLE: title;
+$SEARCH_BOX: search-box;
+
+:export {
+    NAVBAR: $NAVBAR;
+    TITLE: $TITLE;
+	SEARCH_BOX: $SEARCH_BOX;
+}
+
+$NAVBAR_CLASS: "." + $NAVBAR;
+$TITLE: "." + $TITLE;
+$SEARCH_BOX: "." + $SEARCH_BOX;
