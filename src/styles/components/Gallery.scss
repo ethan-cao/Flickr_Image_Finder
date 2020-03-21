@@ -1,0 +1,17 @@
+#{$GALLERY} {
+	padding: 1em;
+	flex: 1 1 auto;
+	// height: 1000px;
+
+	#{$IMAGE_CONTAINER} {
+
+		#{$IMAGE} {
+            border-radius: 5px;
+            
+			&:hover {
+				transform: scale(1.125);
+				transition: transform 100ms ease-in-out;
+			}
+		}
+	}
+}

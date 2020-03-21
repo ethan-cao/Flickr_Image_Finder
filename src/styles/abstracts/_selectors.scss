@@ -1,13 +1,31 @@
+$APP: app;
 $NAVBAR: navbar;
 $TITLE: title;
 $SEARCH_BOX: search-box;
+$GALLERY: gallery;
+$PAGENATOR: pagenator;
+$SIZER: sizer;
+$IMAGE_CONTAINER: image-container;
+$IMAGE: image;
 
 :export {
-    NAVBAR: $NAVBAR;
-    TITLE: $TITLE;
+	APP: $APP;
+	NAVBAR: $NAVBAR;
+	TITLE: $TITLE;
 	SEARCH_BOX: $SEARCH_BOX;
+	GALLERY: $GALLERY;
+	PAGENATOR: $PAGENATOR;
+	SIZER: $SIZER;
+	IMAGE: $IMAGE;
+	IMAGE_CONTAINER: $IMAGE_CONTAINER;
 }
 
+$APP: "." + $APP;
 $NAVBAR_CLASS: "." + $NAVBAR;
 $TITLE: "." + $TITLE;
 $SEARCH_BOX: "." + $SEARCH_BOX;
+$GALLERY: "." + $GALLERY;
+$SIZER: "." + $SIZER;
+$PAGENATOR: "." + $PAGENATOR;
+$IMAGE: "." + $IMAGE;
+$IMAGE_CONTAINER: "." + $IMAGE_CONTAINER;

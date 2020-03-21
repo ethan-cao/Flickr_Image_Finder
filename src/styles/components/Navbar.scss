@@ -9,14 +9,14 @@
 
 	#{$TITLE} {
 		font-weight: 400;
-		font-style: normal;
+		font-size: x-large;
 		color: white;
 	}
 
 	#{$SEARCH_BOX} {
 		display: flex;
 		flex-flow: row nowrap;
-		min-height: 1rem;
+        min-height: 2rem;
 
 		input {
 			color: grey;
